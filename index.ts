@@ -1,13 +1,8 @@
 #!/usr/bin/env node
 
-
 import inquirer from "inquirer";
 const answers = await inquirer.prompt([]);
-// computer will generate a random number
-// take user`s input
-// compare them both and show result
-
-const randomNumber = Math.floor(Math.random() * 6 + 1 );
+const randomNumber = Math.floor(Math.random() * 6 + 1);
 // console.log(randomNumber);
 
 const answer = await inquirer.prompt([
