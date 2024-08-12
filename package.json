@@ -1,6 +1,6 @@
 {
   "name": "@muhammed_suhaib/cli-guess-the-number",
-  "version": "1.0.0",
+  "version": "1.9.0",
   "description": "A CLI BASED GUESS THE NUMBERS GAME",
   "main": "index.js",
   "type": "module",
@@ -14,9 +14,12 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "inquirer": "^9.2.18"
+    "chalk-animation": "^2.0.3",
+    "inquirer": "^9.3.6",
+    "node-banner": "^1.4.0"
   },
   "devDependencies": {
+    "@types/chalk-animation": "^1.6.3",
     "@types/inquirer": "^9.0.7"
   }
 }
