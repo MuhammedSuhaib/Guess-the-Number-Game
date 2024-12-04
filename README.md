@@ -1,38 +1,59 @@
-## Guess the Number Game
+The provided code seems mostly fine for a basic number guessing game, but there are a few improvements and corrections to make the README and code clearer and more accurate.
 
-Welcome to the **Guess the Number Game**! This is a console-based game written in Java where the player tries to guess a randomly generated number within a specified range.
+### 1. **Readme Improvements**:
+- The README mentions Java (JDK), but it's a Node.js-based project. You need to correct that as discussed before. Here’s a slightly revised version:
 
 ---
 
-## How to Play
+## Guess the Number Game  
 
-1. The program generates a random number between a defined range (default: 1 to 100).
-2. The player enters guesses via the console.
+Welcome to the **Guess the Number Game**! This is a console-based game written in **JavaScript** using **Node.js** where the player tries to guess a randomly generated number between 1 and 6.  
+
+---
+
+## How to Play  
+
+1. The program generates a random number between 1 and 6.
+2. The player enters a guess via the console.
 3. After each guess, the program provides feedback:
-   - **Too high**: Your guess is higher than the target number.
-   - **Too low**: Your guess is lower than the target number.
    - **Correct**: You've guessed the number!
-4. The game tracks the number of attempts and announces the result once the number is guessed.
+   - **Wrong**: Try again!
+4. The game tells you whether your guess was correct or wrong.
 
 ---
 
-## Features
+## Features  
 
-- Adjustable range for random number generation.
-- Tracks the number of attempts to guess the correct number.
-- Option to play multiple rounds in a single session.
-
----
-
-## Requirements
-
-- Java Development Kit (JDK) 8 or higher
+- Generates a random number between 1 and 6.
+- Uses inquirer for user input and chalk for colorful output.
+- Displays a fun banner using the node-banner and chalk-animation libraries.
 
 ---
 
-## Installation
+## Requirements  
 
-1. Clone the repository:
+- **Node.js** (version 10 or higher)  
+- Install dependencies using:
    ```bash
-   git clone https://github.com/yourusername/guess-the-number-java.git
-   cd guess-the-number-java
+   npm install
+   ```
+
+---
+
+## Installation  
+
+1. Clone the repository:  
+   ```bash  
+  git clone https://github.com/MuhammedSuhaib/Guess-the-Number-Game.git
+cd Guess-the-Number-Game  
+   ```
+2. Install dependencies:  
+   ```bash  
+   npm install  
+   ```
+3. Run the game:  
+   ```bash  
+   node index.js  
+   ```
+
+---
