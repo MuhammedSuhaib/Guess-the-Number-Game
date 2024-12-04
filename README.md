@@ -1,10 +1,3 @@
-The provided code seems mostly fine for a basic number guessing game, but there are a few improvements and corrections to make the README and code clearer and more accurate.
-
-### 1. **Readme Improvements**:
-- The README mentions Java (JDK), but it's a Node.js-based project. You need to correct that as discussed before. Here’s a slightly revised version:
-
----
-
 ## Guess the Number Game  
 
 Welcome to the **Guess the Number Game**! This is a console-based game written in **JavaScript** using **Node.js** where the player tries to guess a randomly generated number between 1 and 6.  
