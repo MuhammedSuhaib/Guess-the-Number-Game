@@ -37,7 +37,7 @@ Welcome to the **Guess the Number Game**! This is a console-based game written i
 
 1. Clone the repository:  
    ```bash  
-  git clone https://github.com/MuhammedSuhaib/Guess-the-Number-Game.git
+https://github.com/MuhammedSuhaib/Guess-the-Number-Game.git
 cd Guess-the-Number-Game  
    ```
 2. Install dependencies:  
